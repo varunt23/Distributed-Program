@@ -1,0 +1,232 @@
+<Events startTimestamp="1587347388962" logVersion="1.0.0.202001201631">
+  <Command __id="2" _type="EclipseCommand" commandID="" date="Sun Apr 19 21:49:49 EDT 2020" starttimestamp="1587347388962" timestamp="541" />
+  <Command __id="4" _type="RunCommand" date="Sun Apr 19 21:49:55 EDT 2020" kind="HitBreakPoint" projectName="a5" starttimestamp="1587347388962" timestamp="6422" type="Run" />
+  <Command __id="5" _type="RunCommand" date="Sun Apr 19 21:49:55 EDT 2020" kind="HitBreakPoint" projectName="a5" starttimestamp="1587347388962" timestamp="6423" type="Run" />
+  <Command __id="6" _type="EHExceptionCommand" date="Sun Apr 19 21:49:56 EDT 2020" starttimestamp="1587347388962" timestamp="7547" type="Exception">
+    <outputString><![CDATA[I***Tracer: showInfo = true
+Buffer traced messages =false
+]]></outputString>
+  </Command>
+  <Command __id="7" _type="EHExceptionCommand" date="Sun Apr 19 21:50:02 EDT 2020" starttimestamp="1587347388962" timestamp="13076" type="Exception">
+    <outputString><![CDATA[ObjectEditor(Version 22, built on null). Copyright Prasun Dewan, 2012, All rights reserved. US Patent Appl. No.: 12/532,327
+]]></outputString>
+  </Command>
+  <Command __id="8" _type="ShellCommand" date="Sun Apr 19 21:50:04 EDT 2020" starttimestamp="1587347388962" timestamp="15330" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="9" _type="EHExceptionCommand" date="Sun Apr 19 21:50:27 EDT 2020" starttimestamp="1587347388962" timestamp="38621" type="Exception">
+    <outputString><![CDATA[W*** Received notification(s) for unknown (possibly invisible or unrecognized atomic-shape) property: TestRunStarted of object: Assignment5OneClientSuite[60.0 pts](grader.basics.junit.AGradableJUnitSuite@1cf2fed4). Ignoring notification.
+I***(TestCaseResult) ### GIPCRMIOneClientReadWriteNonAtomic: 1.0
+### RegistryBasedDistributedProgram
+I***(BasicProjectIntrospection) Looking for unique class matching name null tags [Registry] name regex null tag regex null
+I***(BasicProjectIntrospection) Found type:class comp533.RegistryProcess
+I***(BasicProcessRunner) Running command:java -cp ".;..;C:\Users\Varun\eclipse-workspace\a5\bin;C:\Users\Varun\Documents;C:\Users\Varun\Documents\Comp533All(5).jar;;C:\Users\Varun\eclipse-workspace\a5\bin;C:\Users\Varun\Documents;C:\Users\Varun\Documents\Comp533All(5).jar" comp533.RegistryProcess 6000
+I***(BasicProcessRunner) Running in folder: C:\Users\Varun\eclipse-workspace\a5\.\bin
+]]></outputString>
+  </Command>
+  <Command __id="10" _type="EHExceptionCommand" date="Sun Apr 19 21:50:27 EDT 2020" starttimestamp="1587347388962" timestamp="38731" type="Exception">
+    <outputString><![CDATA[I***(BasicProcessRunner)  Process started: 6000 folder: C:\Users\Varun\eclipse-workspace\a5\.\bin entry point: null class path: C:\Users\Varun\eclipse-workspace\a5\bin;C:\Users\Varun\Documents;C:\Users\Varun\Documents\Comp533All(5).jar
+I***(BasicProcessRunner) Sleeping for 500ms to wait for release of resources of terminated process:Registry
+]]></outputString>
+  </Command>
+  <Command __id="11" _type="EHExceptionCommand" date="Sun Apr 19 21:50:28 EDT 2020" starttimestamp="1587347388962" timestamp="39212" type="Exception">
+    <outputString><![CDATA[I***(BasicProjectIntrospection) Looking for unique class matching name null tags [GIPC, RMI, Server] name regex null tag regex null
+I***(BasicProjectIntrospection) Found type:class comp533.ServerProcess
+I***(BasicProcessRunner) Running command:java -cp ".;..;C:\Users\Varun\eclipse-workspace\a5\bin;C:\Users\Varun\Documents;C:\Users\Varun\Documents\Comp533All(5).jar;;C:\Users\Varun\eclipse-workspace\a5\bin;C:\Users\Varun\Documents;C:\Users\Varun\Documents\Comp533All(5).jar" comp533.ServerProcess 5000 localhost 6000 7000
+I***(BasicProcessRunner) Running in folder: C:\Users\Varun\eclipse-workspace\a5\.\bin
+I***(BasicProcessRunner)  Process started: 7000 folder: C:\Users\Varun\eclipse-workspace\a5\.\bin entry point: null class path: C:\Users\Varun\eclipse-workspace\a5\bin;C:\Users\Varun\Documents;C:\Users\Varun\Documents\Comp533All(5).jar
+I***(BasicProcessRunner) Sleeping for 1000ms to wait for release of resources of terminated process:Server
+]]></outputString>
+  </Command>
+  <Command __id="12" _type="EHExceptionCommand" date="Sun Apr 19 21:50:28 EDT 2020" starttimestamp="1587347388962" timestamp="39768" type="Exception">
+    <outputString><![CDATA[I***(BasicRunningProject) 1587347428677:Received output from Server: I***Tracer: showInfo = true
+I***(BasicRunningProject) 1587347428679:Processing line from Server: I***Tracer: showInfo = true
+I***(BasicRunningProject) New input a falsefor Server
+I***(ARunnerInputStreamProcessor) Server$a false
+
+]]></outputString>
+  </Command>
+  <Command __id="13" _type="EHExceptionCommand" date="Sun Apr 19 21:50:29 EDT 2020" starttimestamp="1587347388962" timestamp="40278" type="Exception">
+    <outputString><![CDATA[I***(BasicProjectIntrospection) Looking for unique class matching name null tags [Client, GIPC, RMI] name regex null tag regex null
+I***(BasicProjectIntrospection) Found type:class comp533.ClientProcess
+I***(BasicProcessRunner) Running command:java -cp ".;..;C:\Users\Varun\eclipse-workspace\a5\bin;C:\Users\Varun\Documents;C:\Users\Varun\Documents\Comp533All(5).jar;;C:\Users\Varun\eclipse-workspace\a5\bin;C:\Users\Varun\Documents;C:\Users\Varun\Documents\Comp533All(5).jar" comp533.ClientProcess localhost 5000 Client_0 true localhost 6000 7000
+I***(BasicProcessRunner) Running in folder: C:\Users\Varun\eclipse-workspace\a5\.\bin
+I***(BasicProcessRunner)  Process started: 7000 folder: C:\Users\Varun\eclipse-workspace\a5\.\bin entry point: null class path: C:\Users\Varun\eclipse-workspace\a5\bin;C:\Users\Varun\Documents;C:\Users\Varun\Documents\Comp533All(5).jar
+I***(BasicProcessRunner) Sleeping for 2000ms to wait for release of resources of terminated process:Client
+]]></outputString>
+  </Command>
+  <Command __id="14" _type="EHExceptionCommand" date="Sun Apr 19 21:50:29 EDT 2020" starttimestamp="1587347388962" timestamp="40907" type="Exception">
+    <outputString><![CDATA[I***(BasicRunningProject) 1587347429816:Received output from Client: I***Tracer: showInfo = true
+I***(BasicRunningProject) 1587347429816:Processing line from Client: I***Tracer: showInfo = true
+I***(BasicRunningProject) New input a falsefor Client
+I***(ARunnerInputStreamProcessor) Client$a false
+
+]]></outputString>
+  </Command>
+  <Command __id="15" _type="EHExceptionCommand" date="Sun Apr 19 21:50:30 EDT 2020" starttimestamp="1587347388962" timestamp="41166" type="Exception">
+    <outputString><![CDATA[I***(BasicRunningProject) 1587347430075:Received output from Server: I***@334075763870100 {main}(RMIRegistryLocated) EvtSrc(RegistryImpl_Stub)  localhost:6000->RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[localhost:6000](remote),objID:[0:0:0, 0]]]]
+I***(BasicRunningProject) 1587347430075:Processing line from Server: I***@334075763870100 {main}(RMIRegistryLocated) EvtSrc(RegistryImpl_Stub)  localhost:6000->RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[localhost:6000](remote),objID:[0:0:0, 0]]]]
+]]></outputString>
+  </Command>
+  <Command __id="16" _type="EHExceptionCommand" date="Sun Apr 19 21:50:30 EDT 2020" starttimestamp="1587347388962" timestamp="41558" type="Exception">
+    <outputString><![CDATA[I***(BasicRunningProject) 1587347430417:Received output from Server: I***@334076105998200 {main}(RMIObjectRegistered) EvtSrc(Server)  comp533.Server@5158b42f<->comp533.ServerInterface:RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[localhost:6000](remote),objID:[0:0:0, 0]]]]
+I***(BasicRunningProject) 1587347430417:Processing line from Server: I***@334076105998200 {main}(RMIObjectRegistered) EvtSrc(Server)  comp533.Server@5158b42f<->comp533.ServerInterface:RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[localhost:6000](remote),objID:[0:0:0, 0]]]]
+I***(BasicRunningProject) 1587347430420:Received output from Server: I***@334076109684200 {main}(GIPCRegistryCreated) EvtSrc(GIPCRegistry)  7000
+I***(BasicRunningProject) 1587347430421:Processing line from Server: I***@334076109684200 {main}(GIPCRegistryCreated) EvtSrc(GIPCRegistry)  7000
+]]></outputString>
+  </Command>
+  <Command __id="17" _type="EHExceptionCommand" date="Sun Apr 19 21:50:30 EDT 2020" starttimestamp="1587347388962" timestamp="41760" type="Exception">
+    <outputString><![CDATA[I***(BasicRunningProject) 1587347430668:Received output from Server: I***@334076357963000 {Selecting Thread}(SelectCalled) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@1f7161cd
+I***(BasicRunningProject) 1587347430669:Processing line from Server: I***@334076357963000 {Selecting Thread}(SelectCalled) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@1f7161cd
+I***(BasicRunningProject) 1587347430684:Received output from Server: I***@334076373420800 {main}(SelectorFactorySet) EvtSrc(AcceptCommandFactorySelector)  inputport.nio.manager.factories.classes.AReadingAcceptCommandFactory@74ea2410
+I***(BasicRunningProject) 1587347430684:Processing line from Server: I***@334076373420800 {main}(SelectorFactorySet) EvtSrc(AcceptCommandFactorySelector)  inputport.nio.manager.factories.classes.AReadingAcceptCommandFactory@74ea2410
+]]></outputString>
+  </Command>
+  <Command __id="18" _type="ExceptionCommand" date="Sun Apr 19 21:50:30 EDT 2020" starttimestamp="1587347388962" timestamp="41942" type="Exception">
+    <exceptionString><![CDATA[(Server)java.net.BindException: Address already in use: bind
+(Server)	at java.base/sun.nio.ch.Net.bind0(Native Method)
+(Server)	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+(Server)	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+(Server)	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+(Server)	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+(Server)	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+(Server)	at inputport.datacomm.simplex.buffer.nio.AnNIOSimplexBufferServerInpuPorttDriver.createSocketChannel(AnNIOSimplexBufferServerInpuPorttDriver.java:57)
+(Server)	at inputport.datacomm.simplex.buffer.nio.AnNIOSimplexBufferServerInpuPorttDriver.connect(AnNIOSimplexBufferServerInpuPorttDriver.java:39)
+(Server)	at inputport.datacomm.simplex.buffer.AGenericSimplexBufferServerInputPort.connect(AGenericSimplexBufferServerInputPort.java:70)
+(Server)	at inputport.datacomm.simplex.object.ASimplexObjectServerInputPort.connect(ASimplexObjectServerInputPort.java:65)
+(Server)	at inputport.rpc.simplex.ASimplexRPCServerInputPort.connect(ASimplexRPCServerInputPort.java:91)
+(Server)	at port.AnAbstractPortLauncher.connect(AnAbstractPortLauncher.java:1009)
+(Server)	at port.AnAbstractPortLauncher.connectPorts(AnAbstractPortLauncher.java:1014)
+(Server)	at port.AnAbstractPortLauncher.launch(AnAbstractPortLauncher.java:1061)
+(Server)	at inputport.rpc.GIPCLocateRegistry.createRegistry(GIPCLocateRegistry.java:21)
+(Server)	at comp533.ServerProcess.main(ServerProcess.java:44)
+I***(BasicRunningProject) 1587347430851:Received output from Server: I***@334076539658900 {main}(GIPCObjectRegistered) EvtSrc(AnAbstractDuplexRPCServerPortLauncher)  comp533.Server@673fdbce<->comp533.GServerInterface:inputport.rpc.duplex.AnAbstractDuplexRPCServerPortLauncher@5965d37
+I***(BasicRunningProject) 1587347430851:Processing line from Server: I***@334076539658900 {main}(GIPCObjectRegistered) EvtSrc(AnAbstractDuplexRPCServerPortLauncher)  comp533.Server@673fdbce<->comp533.GServerInterface:inputport.rpc.duplex.AnAbstractDuplexRPCServerPortLauncher@5965d37
+I***(BasicRunningProject) 1587347430861:Received output from Server: Command processor scanner opened
+I***(BasicRunningProject) 1587347430861:Processing line from Server: Command processor scanner opened
+I***(BasicRunningProject) 1587347430898:Received output from Server: Enter (prefixes of) print, quit or a method and its parameters separated by commas:
+I***(BasicRunningProject) 1587347430898:Processing line from Server: Enter (prefixes of) print, quit or a method and its parameters separated by commas:
+]]></exceptionString>
+  </Command>
+  <Command __id="19" _type="EHExceptionCommand" date="Sun Apr 19 21:50:30 EDT 2020" starttimestamp="1587347388962" timestamp="42037" type="Exception">
+    <outputString><![CDATA[I***(BasicRunningProject) 1587347430902:Received output from Server: public default void assignments.util.inputParameters.SimulationParametersListener.atomicBroadcast(boolean)[false]
+I***(BasicRunningProject) 1587347430902:Processing line from Server: public default void assignments.util.inputParameters.SimulationParametersListener.atomicBroadcast(boolean)[false]
+I***(BasicRunningProject) 1587347430905:Received output from Server: I***@334076594230800 {main}(ProposalMade) EvtSrc(Server)  broadcast_mode,-1.0=false
+I***(BasicRunningProject) 1587347430905:Processing line from Server: I***@334076594230800 {main}(ProposalMade) EvtSrc(Server)  broadcast_mode,-1.0=false
+I***(BasicRunningProject) 1587347430907:Received output from Server: I***@334076595758200 {main}(ProposedStateSet) EvtSrc(Server)  broadcast_mode,-1.0=false
+I***(BasicRunningProject) 1587347430907:Processing line from Server: I***@334076595758200 {main}(ProposedStateSet) EvtSrc(Server)  broadcast_mode,-1.0=false
+I***(BasicRunningProject) 1587347430909:Received output from Server: I***@334076597705100 {main}(ProposalMade) EvtSrc(Server)  broadcast_mode,-1.0=false
+I***(BasicRunningProject) 1587347430909:Processing line from Server: I***@334076597705100 {main}(ProposalMade) EvtSrc(Server)  broadcast_mode,-1.0=false
+I***(BasicRunningProject) 1587347430910:Received output from Server: I***@334076599441400 {main}(ProposedStateSet) EvtSrc(Server)  broadcast_mode,-1.0=false
+I***(BasicRunningProject) 1587347430910:Processing line from Server: I***@334076599441400 {main}(ProposedStateSet) EvtSrc(Server)  broadcast_mode,-1.0=false
+I***(BasicRunningProject) 1587347430911:Received output from Server: Enter (prefixes of) print, quit or a method and its parameters separated by commas:
+I***(BasicRunningProject) 1587347430911:Processing line from Server: Enter (prefixes of) print, quit or a method and its parameters separated by commas:
+]]></outputString>
+  </Command>
+  <Command __id="20" _type="EHExceptionCommand" date="Sun Apr 19 21:50:31 EDT 2020" starttimestamp="1587347388962" timestamp="42243" type="Exception">
+    <outputString><![CDATA[I***(TimedProcess) Making timed call with seconds timeout:5
+]]></outputString>
+  </Command>
+  <Command __id="21" _type="EHExceptionCommand" date="Sun Apr 19 21:50:31 EDT 2020" starttimestamp="1587347388962" timestamp="42339" type="Exception">
+    <outputString><![CDATA[I***(BasicRunningProject) 1587347431207:Received output from Client: I***@334076896413200 {main}(RMIRegistryLocated) EvtSrc(RegistryImpl_Stub)  localhost:6000->RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[localhost:6000](remote),objID:[0:0:0, 0]]]]
+I***(BasicRunningProject) 1587347431208:Processing line from Client: I***@334076896413200 {main}(RMIRegistryLocated) EvtSrc(RegistryImpl_Stub)  localhost:6000->RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[localhost:6000](remote),objID:[0:0:0, 0]]]]
+I***(BasicRunningProject) 1587347431222:Received output from Client: I***@334076911341400 {main}(GIPCRegistryLocated) EvtSrc(GIPCRegistry)  localhost:7000<-Client_0
+I***(BasicRunningProject) 1587347431222:Processing line from Client: I***@334076911341400 {main}(GIPCRegistryLocated) EvtSrc(GIPCRegistry)  localhost:7000<-Client_0
+]]></outputString>
+  </Command>
+  <Command __id="22" _type="EHExceptionCommand" date="Sun Apr 19 21:50:31 EDT 2020" starttimestamp="1587347388962" timestamp="42504" type="Exception">
+    <outputString><![CDATA[I***(BasicRunningProject) 1587347431415:Received output from Client: I***@334077104085100 {Selecting Thread}(SelectCalled) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431415:Processing line from Client: I***@334077104085100 {Selecting Thread}(SelectCalled) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431424:Received output from Client: I***@334077112787500 {main}(SelectorFactorySet) EvtSrc(ConnectCommandFactorySelector)  inputport.datacomm.simplex.buffer.nio.AWritingConnectCommandFactory@28f3b248
+I***(BasicRunningProject) 1587347431424:Processing line from Client: I***@334077112787500 {main}(SelectorFactorySet) EvtSrc(ConnectCommandFactorySelector)  inputport.datacomm.simplex.buffer.nio.AWritingConnectCommandFactory@28f3b248
+I***(BasicRunningProject) 1587347431425:Received output from Client: I***@334077113967500 {main}(SelectorFactorySet) EvtSrc(ConnectCommandFactorySelector)  inputport.nio.manager.factories.classes.AReadingWritingConnectCommandFactory@6d4e5011
+I***(BasicRunningProject) 1587347431425:Processing line from Client: I***@334077113967500 {main}(SelectorFactorySet) EvtSrc(ConnectCommandFactorySelector)  inputport.nio.manager.factories.classes.AReadingWritingConnectCommandFactory@6d4e5011
+]]></outputString>
+  </Command>
+  <Command __id="23" _type="EHExceptionCommand" date="Sun Apr 19 21:50:31 EDT 2020" starttimestamp="1587347388962" timestamp="42605" type="Exception">
+    <outputString><![CDATA[I***(BasicRunningProject) 1587347431487:Received output from Client: I***@334077176151200 {main}(SocketChannelConnectRequested) EvtSrc(AnNIOManager)  (localhost/127.0.0.1:7000,[inputport.datacomm.duplex.buffer.nio.AnNIODuplexBufferClientInputPortDriver@3d6f0054]) <-java.nio.channels.SocketChannel[unconnected]
+I***(BasicRunningProject) 1587347431487:Processing line from Client: I***@334077176151200 {main}(SocketChannelConnectRequested) EvtSrc(AnNIOManager)  (localhost/127.0.0.1:7000,[inputport.datacomm.duplex.buffer.nio.AnNIODuplexBufferClientInputPortDriver@3d6f0054]) <-java.nio.channels.SocketChannel[unconnected]
+I***(BasicRunningProject) 1587347431488:Received output from Client: I***@334077177870100 {main}(SelectorRequestEnqueued) EvtSrc(ASelectionConnectionManager)  Command:inputport.nio.manager.commands.classes.AConnectCommand@5d534f5d
+I***(BasicRunningProject) 1587347431489:Processing line from Client: I***@334077177870100 {main}(SelectorRequestEnqueued) EvtSrc(ASelectionConnectionManager)  Command:inputport.nio.manager.commands.classes.AConnectCommand@5d534f5d
+I***(BasicRunningProject) 1587347431489:Received output from Client: I***@334077178437800 {main}(SelectorWokenUp) EvtSrc(ASelectionConnectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431489:Processing line from Client: I***@334077178437800 {main}(SelectorWokenUp) EvtSrc(ASelectionConnectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431490:Received output from Client: I***@334077179340000 {Selecting Thread}(SelectUnblocked) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431490:Processing line from Client: I***@334077179340000 {Selecting Thread}(SelectUnblocked) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431491:Received output from Client: I***@334077180504100 {Selecting Thread}(SelectorRequestDequeued) EvtSrc(ASelectionConnectionManager)  Command:inputport.nio.manager.commands.classes.AConnectCommand@5d534f5d
+I***(BasicRunningProject) 1587347431492:Processing line from Client: I***@334077180504100 {Selecting Thread}(SelectorRequestDequeued) EvtSrc(ASelectionConnectionManager)  Command:inputport.nio.manager.commands.classes.AConnectCommand@5d534f5d
+I***(BasicRunningProject) 1587347431492:Received output from Client: I***@334077181502900 {Selecting Thread}(SocketChannelBlockingConfigured) EvtSrc(AConnectCommand)  false java.nio.channels.SocketChannel[unconnected]
+I***(BasicRunningProject) 1587347431492:Processing line from Client: I***@334077181502900 {Selecting Thread}(SocketChannelBlockingConfigured) EvtSrc(AConnectCommand)  false java.nio.channels.SocketChannel[unconnected]
+I***(BasicRunningProject) 1587347431493:Received output from Client: I***@334077182731900 {Selecting Thread}(SocketChannelConnectInitiated) EvtSrc(AConnectCommand)  java.nio.channels.SocketChannel[connection-pending remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431493:Processing line from Client: I***@334077182731900 {Selecting Thread}(SocketChannelConnectInitiated) EvtSrc(AConnectCommand)  java.nio.channels.SocketChannel[connection-pending remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431495:Received output from Client: I***@334077184511700 {Selecting Thread}(SocketChannelRegistered) EvtSrc(AConnectCommand)  Ops:OP_CONNECT,  Selector:sun.nio.ch.WindowsSelectorImpl@2fa4e6f, java.nio.channels.SocketChannel[connection-pending remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431495:Processing line from Client: I***@334077184511700 {Selecting Thread}(SocketChannelRegistered) EvtSrc(AConnectCommand)  Ops:OP_CONNECT,  Selector:sun.nio.ch.WindowsSelectorImpl@2fa4e6f, java.nio.channels.SocketChannel[connection-pending remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431496:Received output from Client: I***@334077185073500 {Selecting Thread}(SelectCalled) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431496:Processing line from Client: I***@334077185073500 {Selecting Thread}(SelectCalled) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431496:Received output from Client: I***@334077185556500 {Selecting Thread}(SelectUnblocked) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431496:Processing line from Client: I***@334077185556500 {Selecting Thread}(SelectUnblocked) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431497:Received output from Client: I***@334077186513100 {Selecting Thread}(SocketChannelConnected) EvtSrc(AConnectCommand)  [inputport.datacomm.duplex.buffer.nio.AnNIODuplexBufferClientInputPortDriver@3d6f0054]<-java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431497:Processing line from Client: I***@334077186513100 {Selecting Thread}(SocketChannelConnected) EvtSrc(AConnectCommand)  [inputport.datacomm.duplex.buffer.nio.AnNIODuplexBufferClientInputPortDriver@3d6f0054]<-java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431498:Received output from Client: I***@334077186933700 {Selecting Thread}(SocketChannelInterestOp) EvtSrc(AConnectCommand)  Ops:OP_READ Selection Key:sun.nio.ch.SelectionKeyImpl@4cdf0a35
+I***(BasicRunningProject) 1587347431498:Processing line from Client: I***@334077186933700 {Selecting Thread}(SocketChannelInterestOp) EvtSrc(AConnectCommand)  Ops:OP_READ Selection Key:sun.nio.ch.SelectionKeyImpl@4cdf0a35
+I***(BasicRunningProject) 1587347431505:Received output from Client: I***@334077193817800 {Selecting Thread}(SocketChannelWriteRequested) EvtSrc(AnNIOManager)  java.nio.HeapByteBuffer[pos=0 lim=8 cap=8], [inputport.datacomm.duplex.buffer.nio.AnNIODuplexBufferClientInputPortDriver@3d6f0054] java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431505:Processing line from Client: I***@334077193817800 {Selecting Thread}(SocketChannelWriteRequested) EvtSrc(AnNIOManager)  java.nio.HeapByteBuffer[pos=0 lim=8 cap=8], [inputport.datacomm.duplex.buffer.nio.AnNIODuplexBufferClientInputPortDriver@3d6f0054] java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431510:Received output from Client: I***@334077199297500 {Selecting Thread}(WriteRequestEnqueued) EvtSrc(AWriteBoundedBuffer)  Command:inputport.nio.manager.commands.classes.AHeaderWriteCommand@4bd9555d
+I***(BasicRunningProject) 1587347431510:Processing line from Client: I***@334077199297500 {Selecting Thread}(WriteRequestEnqueued) EvtSrc(AWriteBoundedBuffer)  Command:inputport.nio.manager.commands.classes.AHeaderWriteCommand@4bd9555d
+I***(BasicRunningProject) 1587347431510:Received output from Client: I***@334077199622000 {Selecting Thread}(WriteRequestEnqueued) EvtSrc(AWriteBoundedBuffer)  Command:inputport.nio.manager.commands.classes.AWriteCommand@43608eaf
+I***(BasicRunningProject) 1587347431510:Processing line from Client: I***@334077199622000 {Selecting Thread}(WriteRequestEnqueued) EvtSrc(AWriteBoundedBuffer)  Command:inputport.nio.manager.commands.classes.AWriteCommand@43608eaf
+I***(BasicRunningProject) 1587347431511:Received output from Client: I***@334077199893300 {Selecting Thread}(SelectorWokenUp) EvtSrc(AScatterGatherSelectionWriteManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431511:Processing line from Client: I***@334077199893300 {Selecting Thread}(SelectorWokenUp) EvtSrc(AScatterGatherSelectionWriteManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431517:Received output from Client: I***@334077206210000 {Selecting Thread}(ReadListenerAdded) EvtSrc(AnNIOManager)  inputport.datacomm.duplex.buffer.nio.AnNIODuplexBufferClientInputPortDriver@3d6f0054<-java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431517:Processing line from Client: I***@334077206210000 {Selecting Thread}(ReadListenerAdded) EvtSrc(AnNIOManager)  inputport.datacomm.duplex.buffer.nio.AnNIODuplexBufferClientInputPortDriver@3d6f0054<-java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431517:Received output from Client: I***@334077206937600 {Selecting Thread}(WriteListenerAdded) EvtSrc(AnNIOManager)  inputport.datacomm.duplex.buffer.nio.AnNIODuplexBufferClientInputPortDriver@3d6f0054<-java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431518:Processing line from Client: I***@334077206937600 {Selecting Thread}(WriteListenerAdded) EvtSrc(AnNIOManager)  inputport.datacomm.duplex.buffer.nio.AnNIODuplexBufferClientInputPortDriver@3d6f0054<-java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431518:Received output from Client: I***@334077207632000 {Selecting Thread}(SocketChannelInterestOp) EvtSrc(AWriteBoundedBuffer)  Ops:OP_WRITE Selection Key:sun.nio.ch.SelectionKeyImpl@4cdf0a35
+I***(BasicRunningProject) 1587347431518:Processing line from Client: I***@334077207632000 {Selecting Thread}(SocketChannelInterestOp) EvtSrc(AWriteBoundedBuffer)  Ops:OP_WRITE Selection Key:sun.nio.ch.SelectionKeyImpl@4cdf0a35
+I***(BasicRunningProject) 1587347431518:Received output from Client: I***@334077207958900 {Selecting Thread}(SelectCalled) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431519:Processing line from Client: I***@334077207958900 {Selecting Thread}(SelectCalled) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431519:Received output from Client: I***@334077208325100 {Selecting Thread}(SelectUnblocked) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431519:Processing line from Client: I***@334077208325100 {Selecting Thread}(SelectUnblocked) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431519:Received output from Client: I***@334077208772800 {Selecting Thread}(SelectCalled) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431519:Processing line from Client: I***@334077208772800 {Selecting Thread}(SelectCalled) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431520:Received output from Client: I***@334077209280200 {Selecting Thread}(SelectUnblocked) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431520:Processing line from Client: I***@334077209280200 {Selecting Thread}(SelectUnblocked) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431521:Received output from Client: I***@334077210661000 {Selecting Thread}(SocketChannelWritten) EvtSrc(AHeaderWriteCommand)  java.nio.HeapByteBuffer[pos=0 lim=4 cap=4] java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431521:Processing line from Client: I***@334077210661000 {Selecting Thread}(SocketChannelWritten) EvtSrc(AHeaderWriteCommand)  java.nio.HeapByteBuffer[pos=0 lim=4 cap=4] java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431523:Received output from Client: I***@334077212288100 {Selecting Thread}(WriteRequestDequeued) EvtSrc(AWriteBoundedBuffer)  Command:inputport.nio.manager.commands.classes.AHeaderWriteCommand@4bd9555d
+I***(BasicRunningProject) 1587347431523:Processing line from Client: I***@334077212288100 {Selecting Thread}(WriteRequestDequeued) EvtSrc(AWriteBoundedBuffer)  Command:inputport.nio.manager.commands.classes.AHeaderWriteCommand@4bd9555d
+I***(BasicRunningProject) 1587347431524:Received output from Client: I***@334077212806700 {Selecting Thread}(SocketChannelWritten) EvtSrc(AWriteCommand)  java.nio.HeapByteBuffer[pos=0 lim=8 cap=8] java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431524:Processing line from Client: I***@334077212806700 {Selecting Thread}(SocketChannelWritten) EvtSrc(AWriteCommand)  java.nio.HeapByteBuffer[pos=0 lim=8 cap=8] java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431527:Received output from Client: I***@334077216278500 {Selecting Thread}(WriteRequestDequeued) EvtSrc(AWriteBoundedBuffer)  Command:inputport.nio.manager.commands.classes.AWriteCommand@43608eaf
+I***(BasicRunningProject) 1587347431527:Processing line from Client: I***@334077216278500 {Selecting Thread}(WriteRequestDequeued) EvtSrc(AWriteBoundedBuffer)  Command:inputport.nio.manager.commands.classes.AWriteCommand@43608eaf
+I***(BasicRunningProject) 1587347431527:Received output from Client: I***@334077216707400 {Selecting Thread}(SocketChannelInterestOp) EvtSrc(AWriteBoundedBuffer)  Ops:OP_READ Selection Key:sun.nio.ch.SelectionKeyImpl@4cdf0a35
+I***(BasicRunningProject) 1587347431527:Processing line from Client: I***@334077216707400 {Selecting Thread}(SocketChannelInterestOp) EvtSrc(AWriteBoundedBuffer)  Ops:OP_READ Selection Key:sun.nio.ch.SelectionKeyImpl@4cdf0a35
+I***(BasicRunningProject) 1587347431528:Received output from Client: I***@334077217753700 {Selecting Thread}(WriteBufferIsEmpty) EvtSrc(AWriteBoundedBuffer)  [inputport.datacomm.duplex.buffer.nio.AnNIODuplexBufferClientInputPortDriver@3d6f0054]<--java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431529:Processing line from Client: I***@334077217753700 {Selecting Thread}(WriteBufferIsEmpty) EvtSrc(AWriteBoundedBuffer)  [inputport.datacomm.duplex.buffer.nio.AnNIODuplexBufferClientInputPortDriver@3d6f0054]<--java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431529:Received output from Client: I***@334077218739800 {Selecting Thread}(ReadsEnabled) EvtSrc(AnNIOManager)  java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431529:Processing line from Client: I***@334077218739800 {Selecting Thread}(ReadsEnabled) EvtSrc(AnNIOManager)  java.nio.channels.SocketChannel[connected local=/127.0.0.1:60066 remote=localhost/127.0.0.1:7000]
+I***(BasicRunningProject) 1587347431530:Received output from Client: I***@334077219399000 {Selecting Thread}(SocketChannelInterestOp) EvtSrc(AScatterGatherReadCommand)  Ops:OP_READ Selection Key:sun.nio.ch.SelectionKeyImpl@4cdf0a35
+I***(BasicRunningProject) 1587347431530:Processing line from Client: I***@334077219399000 {Selecting Thread}(SocketChannelInterestOp) EvtSrc(AScatterGatherReadCommand)  Ops:OP_READ Selection Key:sun.nio.ch.SelectionKeyImpl@4cdf0a35
+I***(BasicRunningProject) 1587347431531:Received output from Client: I***@334077220090800 {Selecting Thread}(SelectCalled) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431531:Processing line from Client: I***@334077220090800 {Selecting Thread}(SelectCalled) EvtSrc(AScatterGatherSelectionManager)  sun.nio.ch.WindowsSelectorImpl@2fa4e6f
+I***(BasicRunningProject) 1587347431564:Received output from Client: I***@334077252918000 {main}(GIPCObjectLookedUp) EvtSrc(AnAbstractDuplexRPCClientPortLauncher)  com.sun.proxy.$Proxy0@53045c6c<->comp533.GServerInterface:interface comp533.GServerInterface:inputport.rpc.duplex.AnAbstractDuplexRPCClientPortLauncher@cb0755b
+I***(BasicRunningProject) 1587347431564:Processing line from Client: I***@334077252918000 {main}(GIPCObjectLookedUp) EvtSrc(AnAbstractDuplexRPCClientPortLauncher)  com.sun.proxy.$Proxy0@53045c6c<->comp533.GServerInterface:interface comp533.GServerInterface:inputport.rpc.duplex.AnAbstractDuplexRPCClientPortLauncher@cb0755b
+]]></outputString>
+  </Command>
+  <Command __id="24" _type="ExceptionCommand" date="Sun Apr 19 21:50:31 EDT 2020" starttimestamp="1587347388962" timestamp="42746" type="Exception">
+    <exceptionString><![CDATA[I***(BasicRunningProject) 1587347431655:Received output from Client: I***@334077344134300 {main}(RMIObjectLookedUp) EvtSrc(RegistryImpl_Stub)  Proxy[ServerInterface,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.21:60058](remote),objID:[-486c7a26:171954795d5:-7fff, 6531512689710970248]]]]]<->comp533.ServerInterface:RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[localhost:6000](remote),objID:[0:0:0, 0]]]]
+I***(BasicRunningProject) 1587347431655:Processing line from Client: I***@334077344134300 {main}(RMIObjectLookedUp) EvtSrc(RegistryImpl_Stub)  Proxy[ServerInterface,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.1.21:60058](remote),objID:[-486c7a26:171954795d5:-7fff, 6531512689710970248]]]]]<->comp533.ServerInterface:RegistryImpl_Stub[UnicastRef [liveRef: [endpoint:[localhost:6000](remote),objID:[0:0:0, 0]]]]
+I***(BasicRunningProject) 1587347431660:Received output from Client: I***@334077349423600 {main}(ProposedStateSet) EvtSrc(Client)  ipc_mechanism,-1.0=RMI
+I***(BasicRunningProject) 1587347431660:Processing line from Client: I***@334077349423600 {main}(ProposedStateSet) EvtSrc(Client)  ipc_mechanism,-1.0=RMI
+(Client)java.rmi.server.ExportException: remote object implements illegal remote interface; nested exception is: 
+(Client)	java.lang.IllegalArgumentException: illegal remote method encountered: public abstract void comp533.ClientInterface.startClient(java.lang.String[])
+(Client)	at java.rmi/sun.rmi.server.UnicastServerRef.exportObject(Unknown Source)
+(Client)	at java.rmi/java.rmi.server.UnicastRemoteObject.exportObject(Unknown Source)
+(Client)	at java.rmi/java.rmi.server.UnicastRemoteObject.exportObject(Unknown Source)
+(Client)	at comp533.ClientProcess.main(ClientProcess.java:61)
+(Client)Caused by: java.lang.IllegalArgumentException: illegal remote method encountered: public abstract void comp533.ClientInterface.startClient(java.lang.String[])
+(Client)	at java.rmi/sun.rmi.server.Util.checkMethod(Unknown Source)
+(Client)	at java.rmi/sun.rmi.server.Util.getRemoteInterfaces(Unknown Source)
+(Client)	at java.rmi/sun.rmi.server.Util.getRemoteInterfaces(Unknown Source)
+(Client)	at java.rmi/sun.rmi.server.Util.createProxy(Unknown Source)
+(Client)	... 4 more
+]]></exceptionString>
+  </Command>
+</Events>
